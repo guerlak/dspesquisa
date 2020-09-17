@@ -1,0 +1,9 @@
+package com.guerlak.dev.dspesquisa.repositories;
+
+import com.guerlak.dev.dspesquisa.entities.Game;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GameRepo extends JpaRepository<Game, Long> {
+}
